@@ -34,7 +34,7 @@ public class Main {
         for (int totalAll2 : expenses2) {
             total1 += totalAll2;
         }
-        double average = total1 / expenses2.length;
+        int average = total1 / expenses2.length;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рубля");
 
         //task4
